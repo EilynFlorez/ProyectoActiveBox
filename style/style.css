@@ -224,3 +224,78 @@ nav img {
     width: auto;
     height: 36px;
 }
+
+/* Estilos sección 5 */
+.seccion-5 {
+    width: 100%;
+    min-height: 55vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+}
+
+.sec5-img {
+    width: 100%;
+    height: 100%;
+    background-image: url('../assets/images/Layer\ 19.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sec5-cont-text {
+    background-color: rgb(83, 52, 74);
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 2fr 1fr;
+    grid-template-areas:"texto texto texto"
+                        "n circulo t";
+    padding: 12% 10%;
+    padding-right: 37%;
+    justify-items: center;
+    gap: 20px;
+}
+
+.sec5-text {
+    grid-area: texto;
+
+}
+
+.sec5-text-cursiva {
+    color: rgb(251, 236, 248);
+    font-family: "cardo";
+    font-style: italic;
+    font-size: 1.8rem;
+    line-height: 1.2;
+}
+
+.sec5-text-pequeño {
+    color: rgb(250, 230, 246);
+    font-family: "raleway";
+    font-size: 10.5px;
+    font-weight: 650;
+    margin-top: 20px;
+}
+
+.sec5-cont-circulos {
+    grid-area: circulo;
+    display: grid;
+    width: 65%;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    grid-template-rows: 1fr;
+}
+
+.circulo-1, 
+.circulo-2 {
+    background-color: rgb(121, 93, 112);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.circulo-2 {
+    background-color: rgb(255, 247, 255);
+}
