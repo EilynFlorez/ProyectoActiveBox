@@ -71,3 +71,34 @@ nav img {
     font-family: "raleway";
 }
 
+/* Estilos sección 1 */
+.seccion-1 {
+    width: 80%;
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.sec1-text {
+    width: 60%;
+}
+.sec1-text h1 {
+    color: rgb(254, 255, 253);
+    font-family: "open sans";
+    font-size: 3.2rem;
+    line-height: 1.1;
+}
+
+.sec1-text p {
+    margin-top: 25px;
+    margin-bottom: 60px;
+    color: rgb(198, 202, 216);
+    font-family: "open sans";
+    font-size: 17px;
+    font-weight: 400;
+}
+
+/* Estilo boton */
