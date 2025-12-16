@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cardo:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Estilos generales */
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Estilos cabecera */
+header {
+    width: 100%;
+    min-height: 82vh;
+    background-image: url('../assets/images/Layer\ 34.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.fondo-trans {
+    width: 100%;
+    min-height: 82vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(51, 55, 82, 0.96);
+}
+
+/* Estilos menu */
+nav {
+    width: 61%;
+    min-height: 11vh;
+    display: grid;
+    grid-template-columns: 1fr 2fr 4fr;
+    align-items: center;
+    grid-template-rows: 1fr;
+    border-bottom: 1px solid rgb(100, 103, 126);
+}
+
+nav img {
+    height: 18.8px;
+}
+
+.menu {
+    display: grid;
+    margin: 0px;
+    padding: 0px;
+    grid-column: 3/4;
+    grid-template-columns: repeat(5, auto);
+    justify-items: end;
+}
+
+.link-menu a {
+    color: rgb(215, 217, 230);
+    font-weight: 500;
+    font-size: 10px;
+    font-family: "raleway";
+}
+
