@@ -299,3 +299,33 @@ nav img {
 .circulo-2 {
     background-color: rgb(255, 247, 255);
 }
+
+/* Estilos sección 6 */
+.seccion-6 {
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.sec6-text {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    font-family: "raleway";
+    text-align: center;
+}
+
+.sec6-text-grande {
+    color: rgb(74, 74, 74);
+    font-size: 1.4rem;
+}
+
+.sec6-text-pequeño {
+    color: rgb(67, 69, 68);
+    font-size: 10.5px;
+    font-weight: 750;
+}
