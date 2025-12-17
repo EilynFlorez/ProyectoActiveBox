@@ -260,7 +260,6 @@ nav img {
 
 .sec5-text {
     grid-area: texto;
-
 }
 
 .sec5-text-cursiva {
@@ -328,4 +327,64 @@ nav img {
     color: rgb(67, 69, 68);
     font-size: 10.5px;
     font-weight: 750;
+}
+
+/* Estilos footer */
+footer {
+    width: 100%;
+    min-height: 40vh;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 70% 30%;
+    font-family: "raleway";
+}
+
+.foot-sec1 {
+    background-color: rgb(59, 62, 99);
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    padding: 5% 20%;
+    text-align: center;
+}
+
+.foot-article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.foot-article h4 {
+    color: rgb(236, 239, 255);
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.foot-article-text {
+    color: rgb(125, 129, 164);
+    font-size: 12.5px;
+    line-height: 1.4;
+}
+
+.foot-article-img img {
+    height: 48px;
+    padding: 15px;
+    border: 2px solid rgb(246, 252, 254);
+}
+
+.foot-sec2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(48, 52, 85);
+    text-align: center;
+    color: rgb(104, 109, 130);
+    font-size: 12px;
+}
+
+.text-blanco {
+    color: rgb(236, 239, 255);
 }
