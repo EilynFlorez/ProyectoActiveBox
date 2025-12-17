@@ -348,6 +348,7 @@ footer {
     grid-template-rows: 1fr;
     padding: 5% 20%;
     text-align: center;
+    align-items: center;
 }
 
 .foot-article {
@@ -432,6 +433,53 @@ footer {
     }
 }
 
+/* Segunda Media Querie */
 @media(max-width: 920px) {
-    
+    /* Estilos menu */
+    nav {
+        width: 90%;
+    }
+
+    /* Estilos sección 1 */
+    .seccion-1 {
+        width: 100%;
+    }
+
+    .sec1-text {
+        width: 90%;
+    }
+
+    .sec1-text h1 {
+        font-size: 2.5rem;
+    }
+
+    /* Estilos sección 2 */
+    .seccion-2 {
+        padding: 6% 12%;
+    }
+
+    /* Estilos sección 3 */
+    .seccion-3 {
+        min-height: 50vh;
+    }
+
+    /* Estilos sección 4 */
+    .seccion-4 {
+        padding: 5% 8%;
+    }
+
+    /* Estilos sección 5 */
+    .sec5-cont-circulos {
+        width: 80%;
+    }
+
+    /* Estilos Footer */
+    .foot-sec1 {
+        padding: 4%;
+    }
+
+    .foot-article-img img {
+        height: 38px;
+        padding: 10px;
+    }
 }
