@@ -61,8 +61,6 @@ nav img {
 
 .menu {
     display: grid;
-    margin: 0px;
-    padding: 0px;
     grid-column: 3/4;
     grid-template-columns: repeat(5, auto);
     justify-items: end;
@@ -482,4 +480,83 @@ footer {
         height: 38px;
         padding: 10px;
     }
+}
+
+/* Tercer media querie */
+@media(max-width: 768px) {
+    /* Estilos menu */
+    nav {
+        padding-top: 40px;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(2, 1fr);
+        gap: 20px;
+        padding-bottom: 20px;
+    }
+
+    .menu {
+        grid-column: 1/2;
+        justify-items: start;
+    }
+
+    /* Estilos sección 1 */
+    .sec1-text h1 {
+        font-size: 2rem;
+    }
+
+    .sec1-text p {
+        font-size: 15px;
+        margin-bottom: 40px;
+    }
+
+    /* Estilos sección 2 */
+    .seccion-2 {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        padding: 9%;
+    }
+
+    .sec2-article {
+        grid-template-rows: 1fr 1fr 1.5fr;
+        align-items: center;
+    }
+
+    /* Estilos sección 3 */
+    .seccion-3 {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+    }
+
+    /* Estilos sección 4 */
+    .seccion-4 {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        padding: 10% 8%;
+    }
+
+    /* Estilos sección 5 */
+    .seccion-5 {
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(2, 1fr);
+        text-align: center;
+    }
+    
+    /* Estilos sección 6 */
+    .seccion-6 {
+        padding: 8%;
+    }
+
+    /* Estilos footer */
+    footer {
+        min-height: 65vh;
+        grid-template-rows: 80% 20%;
+    }
+
+    .foot-sec1 {
+        gap: 20px;
+        align-items: start;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        padding: 8%;
+    }
+
 }
