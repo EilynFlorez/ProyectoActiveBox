@@ -388,3 +388,50 @@ footer {
 .text-blanco {
     color: rgb(236, 239, 255);
 }
+
+/* Primer media querie */
+@media(max-width: 1279px) {
+    /* Estilos menu */
+    nav {
+        width: 80%;
+    }
+
+    /* Estilos sección 1 */
+    .seccion-1 {
+        width: 90%;
+        padding: 6%;
+    }
+
+    .sec1-text {
+        width: 80%;
+    }
+
+    .sec1-text h1 {
+        font-size: 2.8rem;
+    }
+
+    /* Estilos sección 2 */
+    .seccion-2 {
+        padding: 6% 16%;
+    }
+
+    /* Estilos sección 4 */
+    .seccion-4 {
+        padding: 5% 12%;
+    }
+
+    /* Estilos sección 5 */
+    .sec5-cont-text {
+        padding: 12% 10%;
+        padding-right: 10%;
+    }
+
+    /* Estilos Footer */
+    .foot-sec1 {
+        padding: 5%;
+    }
+}
+
+@media(max-width: 920px) {
+    
+}
